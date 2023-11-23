@@ -2,9 +2,9 @@
 
 1. How to Declare Variables in Rust
 
-    - Use the `const` or `let` keywords to initialize variables
+    - Use the `const` or `let` keywords to initialize variables<br/>
 
-    - Type annotations are optional
+    - `let` variable declarations have **optional** type annotations and are **immutable by default**
 
     - Examples: <br/>
 
@@ -25,7 +25,7 @@
         Characters -> `char`<br/>
         Booleans -> `bool`<br/>
 
-    - `const` variable declarations require type annotations and are always immutable
+    - `const` variable declarations have **mandatory** type annotations and are **always immutable**
 
     - Example: <br/>
 
