@@ -13,8 +13,6 @@
 
         let x = 4;
 
-        // The default type for integers is i32
-
         // Initializing an i32 type variable that is immutable with a type
 
         let x: i32 = 4;
