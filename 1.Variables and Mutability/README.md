@@ -4,7 +4,7 @@
 
     - Use the `const` or `let` keywords to initialize variables
 
-    - The Rust compiler can interpret type annontations
+    - Type annotations are optional
 
     - Examples: <br/>
 
@@ -18,9 +18,26 @@
         let x: i32 = 4;
         ~~~
 
+    - Defaults for primitive types
+
+        Integers -> `i32`<br/>
+        Floats -> `f64`<br/>
+        Characters -> `char`<br/>
+        Booleans -> `bool`<br/>
+
+    - `const` variable declarations require type annotations and are always immutable
+
+    - Example: <br/>
+
+        ~~~
+        // Initializing a float type constant variable that is always immutable
+
+        const IMMUTABLE: f64 = 5.78;
+        ~~~
+
 2. The concept of Mutability/Immutability in Rust
 
-3. 'let', 'mut', and 'const' Keywords
+3. `let`, `mut`, and `const` Keywords
 
 4. Benefits of the Immutable Design Pattern
 
