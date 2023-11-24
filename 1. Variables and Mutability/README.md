@@ -43,6 +43,8 @@
 
    - All variables are immutable by default
 
+   - In order to make a variable mutable, add the `mut` keyword
+
 3. `let`, `mut`, and `const` Keywords
 
 4. Benefits of the Immutable Design Pattern
