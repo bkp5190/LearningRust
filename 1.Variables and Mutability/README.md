@@ -15,7 +15,7 @@
 
         // Initializing an i32 type variable that is immutable with a type
 
-        let x: i32 = 4;
+        let y: i32 = 4;
         ~~~
 
     - Defaults for primitive types
@@ -34,6 +34,10 @@
 
         const IMMUTABLE: f64 = 5.78;
         ~~~
+
+    Code Example:
+
+    `cd declaring_variables` && `cargo run`
 
 2. The concept of Mutability/Immutability in Rust
 
